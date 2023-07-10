@@ -1,5 +1,3 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
 Monday, July 10, 2023
 
@@ -20,9 +18,10 @@ What are the counts of gender (only available for NYC and Chicago)?
 What is the earliest, most recent, and most common year of birth (only available for NYC and Chicago)?
 
 ### Files used
-bikeshare_2.py
+bikeshare_2.py,
 data (.csv) files
 
 ### Credits
 I'd like to thank my mentor from Udacity, who reviewed my code and guided me to make necessary changes to it, and complete it as a part of my nanodegree.
+
 
