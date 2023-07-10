@@ -203,6 +203,7 @@ def user_stats(df):
 
 def view_data(df):
     """Displays 5 rows of data upon request by the user."""
+    pd.set_option("display.max_columns", 200)
     view_data = input(
         "\nWould you like to view 5 rows of individual trip data? Enter yes or no\n"
     ).lower()
