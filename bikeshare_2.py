@@ -157,7 +157,7 @@ def trip_duration_stats(df):
     Mean_Travel_Time = df["Trip Duration"].mean()
     print("Mean travel time:", Mean_Travel_Time / 60, " Minutes")
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {(time.time() - start_time)} seconds.")
     print("-" * 40)
 
 
@@ -197,7 +197,7 @@ def user_stats(df):
     except KeyError:
         print("\nMost Common Year:\nNo data available for this month.")
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print(f"\nThis took {(time.time() - start_time)} seconds.")
     print("-" * 40)
 
 
